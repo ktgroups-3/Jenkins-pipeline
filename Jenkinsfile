@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Deploy-completed') {
+            steps {
+                echo 'new- changed -Deploying....'
+            }
+        }
     }
 }
